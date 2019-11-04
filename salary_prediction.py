@@ -51,7 +51,7 @@ y = final.salary
 reg.fit(x, y)
 
 score = reg.score(x, y)  # checking accuracy score of this model
-print('Salary Score: ' + str(score))
+print('Model Accuracy Score: ' + str(score))
 
 # predicting salary for various input samples
 # example - age, experience, city, qualification, job title. The city, qualification and job title codes are shown above
